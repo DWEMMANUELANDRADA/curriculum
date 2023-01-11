@@ -60,8 +60,12 @@ body {
     margin: 5px 13px 8px 8px;
 }
 
-#git, #github {
+#git  {
     font-size: 100px;
+    margin: 5px 13px 8px 8px;
+}
+#github{
+      font-size: 100px;
     margin: 5px 13px 8px 8px;
 }
 
