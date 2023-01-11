@@ -93,29 +93,33 @@ footer {
     text-align: center;
 }
 
-#facebook {
+#github {
     color: whitesmoke;
-    font-size: 100px;
-    margin: 5px 8px 8px 8px;
+    font-size: 90px;
+    margin: 12px 12px 8px 12px;
+    font-weight: bolder;
+   
 }
+
 
 #linkedin {
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 90px;
     margin: 5px 8px 8px 8px;
 }
 
 #email {
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 90px;
     margin: 5px 8px 8px 8px;
 }
 
 #whatsapp {
     color: whitesmoke;
-    font-size: 100px;
+    font-size: 90px;
     margin: 5px 8px 8px 8px;
 }
+
 
 #imagencntcto {
     filter: blur(4px);
