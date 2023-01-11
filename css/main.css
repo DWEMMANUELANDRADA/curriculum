@@ -28,6 +28,7 @@ body {
 #imglogo {
     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
+/*lenguajes*/
 
 #html {
     font-size: 130px;
@@ -59,7 +60,7 @@ body {
     margin: 5px 13px 8px 8px;
 }
 
-#react {
+#git, #github {
     font-size: 100px;
     margin: 5px 13px 8px 8px;
 }
