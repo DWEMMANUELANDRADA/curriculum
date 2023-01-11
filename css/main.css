@@ -9,6 +9,7 @@ body {
 }
 
 #barra {
+    font-size: 40px;
     font-family: 'Titillium Web', sans-serif;
     background: #005C97;
     /* fallback for old browsers */
@@ -19,7 +20,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 35px;
+    font-size: 45px;
     color: #000;
     font-weight: bold;
 }
