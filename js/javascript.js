@@ -16,6 +16,11 @@ sr.reveal('.header-content-right', {
     origin: 'right',
     distance: '300px'
 });
+sr.reveal('#imagencntcto', {
+    duration: 2000,
+    origin: 'top',
+    distance: '300px'
+});
 
 sr.reveal('.header-btn', {
     duration: 2000,
