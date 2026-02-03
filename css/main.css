@@ -1,0 +1,232 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: #0f2027;
+    background: -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+    background: linear-gradient(to bottom, #2c5364, #203a43, #0f2027);
+    color: #ecf0f1;
+    overflow-x: hidden;
+}
+
+/* Typography & General */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #00d2ff;
+    border-radius: 2px;
+}
+
+.text-light-50 {
+    color: rgba(236, 240, 241, 0.6);
+}
+
+.bg-dark-deep {
+    background: #0a1418;
+}
+
+.bg-glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.border-light-20 {
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Navigation */
+#barra {
+    font-family: 'Titillium Web', sans-serif;
+    background: rgba(15, 32, 39, 0.95) !important;
+    backdrop-filter: blur(10px);
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #fff !important;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-size: 0.95rem;
+    margin-left: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00d2ff !important;
+}
+
+/* Header */
+#header h2 {
+    font-size: 1.8rem;
+    color: #00d2ff;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+#text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: rgba(236, 240, 241, 0.9);
+}
+
+#imglogo, #imagen1, #imagen2 {
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+#imglogo:hover, #imagen1:hover, #imagen2:hover {
+    transform: scale(1.02);
+}
+
+/* Projects */
+#proyectos {
+    background: #f8f9fa;
+    color: #333;
+}
+
+.project-card {
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-info h4 {
+    font-weight: 700;
+    color: #0f2027;
+}
+
+/* Skills */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.skill-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.skill-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-5px);
+    border-color: #00d2ff;
+}
+
+.skill-item i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.skill-item span {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Brand Colors on Hover */
+.skill-item:hover #html { color: #e34c26; }
+.skill-item:hover #css { color: #264de4; }
+.skill-item:hover #bootstrap { color: #563d7c; }
+.skill-item:hover #wordpress { color: #21759b; }
+.skill-item:hover #javascript { color: #f0db4f; }
+.skill-item:hover #php { color: #777bb4; }
+.skill-item:hover #laravel { color: #ff2d20; }
+.skill-item:hover #basedatos { color: #4db33d; }
+.skill-item:hover #git { color: #f05032; }
+
+/* Contact Section */
+.contact-link {
+    display: flex;
+    align-items: center;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #00d2ff;
+    text-decoration: none;
+    transform: translateX(10px);
+}
+
+.contact-link i {
+    font-size: 2rem;
+}
+
+#imagencntcto {
+    width: 100%;
+    opacity: 0.8;
+}
+
+/* responsive variables */
+@media (max-width: 991.98px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+    
+    .nav-link {
+        margin-left: 0;
+        padding: 0.75rem 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #text {
+        font-size: 1rem;
+    }
+    
+    .skill-item i {
+        font-size: 2.5rem;
+    }
+}
+
+.container-custom {
+    max-width: 1200px;
+}
